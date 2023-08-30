@@ -1,76 +1,134 @@
 {
-  "name": "CEO",
+  "name": "flare",
   "children": [
     {
-      "name": "Manager",
-      "attributes": {
-        "department": "Production"
-      },
+      "name": "analytics",
+      "description": "lorem",
       "children": [
         {
-          "name": "Foreman",
-          "attributes": {
-            "department": "Fabrication"
-          },
+          "name": "cluster",
           "children": [
-            {
-              "name": "Workers"
-            }
+            { "name": "AgglomerativeCluster", "value": 3938 },
+            { "name": "CommunityStructure", "value": 3812 },
+            { "name": "HierarchicalCluster", "value": 6714 },
+            { "name": "MergeEdge", "value": 743 }
           ]
         },
         {
-          "name": "Foreman",
-          "attributes": {
-            "department": "Assembly"
-          },
+          "name": "graph",
           "children": [
-            {
-              "name": "Workers"
-            },
-            {
-              "name": "Workers 2"
-            },
-            {
-              "name": "Workers 3"
-            },
-            {
-              "name": "Workers 4"
-            }
+            { "name": "BetweennessCentrality", "value": 3534 },
+            { "name": "LinkDistance", "value": 5731 },
+            { "name": "MaxFlowMinCut", "value": 7840 },
+            { "name": "ShortestPaths", "value": 5914 },
+            { "name": "SpanningTree", "value": 3416 }
           ]
+        },
+        {
+          "name": "optimization",
+          "children": [{ "name": "AspectRatioBanker", "value": 7074 }]
         }
       ]
     },
     {
-      "name": "Manager",
-      "attributes": {
-        "department": "Marketing"
-      },
+      "name": "animate",
       "children": [
+        { "name": "Easing", "value": 17010 },
+        { "name": "FunctionSequence", "value": 5842 },
         {
-          "name": "Sales Officer",
-          "attributes": {
-            "department": "A"
-          },
+          "name": "interpolate",
           "children": [
-            {
-              "name": "Salespeople"
-            }
+            { "name": "ArrayInterpolator", "value": 1983 },
+            { "name": "ColorInterpolator", "value": 2047 },
+            { "name": "DateInterpolator", "value": 1375 },
+            { "name": "Interpolator", "value": 8746 },
+            { "name": "MatrixInterpolator", "value": 2202 },
+            { "name": "NumberInterpolator", "value": 1382 },
+            { "name": "ObjectInterpolator", "value": 1629 },
+            { "name": "PointInterpolator", "value": 1675 },
+            { "name": "RectangleInterpolator", "value": 2042 }
           ]
         },
+        { "name": "ISchedulable", "value": 1041 },
+        { "name": "Parallel", "value": 5176 },
+        { "name": "Pause", "value": 449 },
+        { "name": "Scheduler", "value": 5593 },
+        { "name": "Sequence", "value": 5534 },
+        { "name": "Transition", "value": 9201 },
+        { "name": "Transitioner", "value": 19975 },
+        { "name": "TransitionEvent", "value": 1116 },
+        { "name": "Tween", "value": 6006 }
+      ]
+    },
+    {
+      "name": "display",
+      "children": [
+        { "name": "DirtySprite", "value": 8833 },
+        { "name": "LineSprite", "value": 1732 },
+        { "name": "RectSprite", "value": 3623 },
+        { "name": "TextSprite", "value": 10066 }
+      ]
+    },
+    {
+      "name": "flex",
+      "children": [{ "name": "FlareVis", "value": 4116 }]
+    },
+    {
+      "name": "physics",
+      "children": [
+        { "name": "DragForce", "value": 1082 },
+        { "name": "GravityForce", "value": 1336 },
+        { "name": "IForce", "value": 319 },
+        { "name": "NBodyForce", "value": 10498 },
+        { "name": "Particle", "value": 2822 },
+        { "name": "Simulation", "value": 9983 },
+        { "name": "Spring", "value": 2213 },
+        { "name": "SpringForce", "value": 1681 }
+      ]
+    },
+    {
+      "name": "util",
+      "children": [
+        { "name": "Arrays", "value": 8258 },
+        { "name": "Colors", "value": 10001 },
+        { "name": "Dates", "value": 8217 },
+        { "name": "Displays", "value": 12555 },
+        { "name": "Filter", "value": 2324 },
+        { "name": "Geometry", "value": 10993 },
         {
-          "name": "Sales Officer",
-          "attributes": {
-            "department": "B"
-          },
+          "name": "heap",
           "children": [
-            {
-              "name": "Salespeople"
-            },
-            {
-              "name": "Salespeople2"
-            }
+            { "name": "FibonacciHeap", "value": 9354 },
+            { "name": "HeapNode", "value": 1233 }
           ]
-        }
+        },
+        { "name": "IEvaluable", "value": 335 },
+        { "name": "IPredicate", "value": 383 },
+        { "name": "IValueProxy", "value": 874 },
+        {
+          "name": "math",
+          "children": [
+            { "name": "DenseMatrix", "value": 3165 },
+            { "name": "IMatrix", "value": 2815 },
+            { "name": "SparseMatrix", "value": 3366 }
+          ]
+        },
+        { "name": "Maths", "value": 17705 },
+        { "name": "Orientation", "value": 1486 },
+        {
+          "name": "palette",
+          "children": [
+            { "name": "ColorPalette", "value": 6367 },
+            { "name": "Palette", "value": 1229 },
+            { "name": "ShapePalette", "value": 2059 },
+            { "name": "SizePalette", "value": 2291 }
+          ]
+        },
+        { "name": "Property", "value": 5559 },
+        { "name": "Shapes", "value": 19118 },
+        { "name": "Sort", "value": 6887 },
+        { "name": "Stats", "value": 6557 },
+        { "name": "Strings", "value": 22026 }
       ]
     }
   ]
