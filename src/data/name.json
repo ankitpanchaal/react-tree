@@ -1,135 +1,215 @@
 {
-  "name": "flare",
+  "title": "Prominent Careers for PCMB Students after 12th",
   "children": [
     {
-      "name": "analytics",
-      "description": "lorem",
+      "title": "Dentist Doctor BDS",
+      "year": "5 yrs"
+    },
+    {
+      "title": "Doctor MBBS, BHMS, SAMS, SUMS",
+      "year": "5.5 yrs"
+    },
+    {
+      "title": "B.Sc.",
+      "year": "3-4 year",
       "children": [
         {
-          "name": "cluster",
+          "title": "CUET",
           "children": [
-            { "name": "AgglomerativeCluster", "value": 3938 },
-            { "name": "CommunityStructure", "value": 3812 },
-            { "name": "HierarchicalCluster", "value": 6714 },
-            { "name": "MergeEdge", "value": 743 }
+            {
+              "title": "Physics/Chemistry/maths/Computers/Electronic/Nursing"
+            },
+            {
+              "title": "Agriculture/Fishery/Nautical/Science"
+            },
+            {
+              "title": "Life Science/Genetics etc."
+            },
+            {
+              "title": "Botany/Zoology"
+            },
+            {
+              "title": "Microbiology/Horticulture"
+            },
+            {
+              "title": "Forestry/Wild life"
+            }
           ]
-        },
-        {
-          "name": "graph",
-          "children": [
-            { "name": "BetweennessCentrality", "value": 3534 },
-            { "name": "LinkDistance", "value": 5731 },
-            { "name": "MaxFlowMinCut", "value": 7840 },
-            { "name": "ShortestPaths", "value": 5914 },
-            { "name": "SpanningTree", "value": 3416 }
-          ]
-        },
-        {
-          "name": "optimization",
-          "children": [{ "name": "AspectRatioBanker", "value": 7074 }]
         }
       ]
     },
     {
-      "name": "animate",
+      "title": "Veterinary Science & Animal Husbandry (BVSc. AR)",
+      "year": "5 yrs"
+    },
+    {
+      "title": "Bachelor of Naturopathy & Yogic Science (BNYS)",
+      "year": "5.5 yrs"
+    },
+    {
+      "title": "Paramedical Courses",
       "children": [
-        { "name": "Easing", "value": 17010 },
-        { "name": "FunctionSequence", "value": 5842 },
         {
-          "name": "interpolate",
-          "children": [
-            { "name": "ArrayInterpolator", "value": 1983 },
-            { "name": "ColorInterpolator", "value": 2047 },
-            { "name": "DateInterpolator", "value": 1375 },
-            { "name": "Interpolator", "value": 8746 },
-            { "name": "MatrixInterpolator", "value": 2202 },
-            { "name": "NumberInterpolator", "value": 1382 },
-            { "name": "ObjectInterpolator", "value": 1629 },
-            { "name": "PointInterpolator", "value": 1675 },
-            { "name": "RectangleInterpolator", "value": 2042 }
-          ]
+          "title": "Pharmacy (B.Pharm.)",
+          "year": "4 yrs"
         },
-        { "name": "ISchedulable", "value": 1041 },
-        { "name": "Parallel", "value": 5176 },
-        { "name": "Pause", "value": 449 },
-        { "name": "Scheduler", "value": 5593 },
-        { "name": "Sequence", "value": 5534 },
-        { "name": "Transition", "value": 9201 },
-        { "name": "Transitioner", "value": 19975 },
-        { "name": "TransitionEvent", "value": 1116 },
-        { "name": "Tween", "value": 6006 }
+        {
+          "title": "Nursing",
+          "year": "3-4 yrs"
+        },
+        {
+          "title": "Physiotherapy (BPT)",
+          "year": "4.5 yrs"
+        },
+        {
+          "title": "LAB Technology (BMLT)",
+          "year": "3 yrs"
+        },
+        {
+          "title": "Prosthetic & Orthotics Technology (OT&PT)",
+          "year": "4 yrs"
+        },
+        {
+          "title": "Occupational Therapy (BOT)",
+          "year": "4.5 yrs"
+        },
+        {
+          "title": "Audiology & Speech Language Pathology (BASLP)",
+          "year": "4 yrs"
+        }
       ]
     },
     {
-      "name": "display",
+      "title": "Management",
+      "year": "3 yrs",
       "children": [
-        { "name": "DirtySprite", "value": 8833 },
-        { "name": "LineSprite", "value": 1732 },
-        { "name": "RectSprite", "value": 3623 },
-        { "name": "TextSprite", "value": 10066 }
+        { "title": "Business Administration (BBA)" },
+        { "title": "Business Studies (BBS)" },
+        { "title": "Business Management (BBM)" }
       ]
     },
     {
-      "name": "flex",
-      "children": [{ "name": "FlareVis", "value": 4116 }]
-    },
-    {
-      "name": "physics",
+      "title": "Creative Career",
+      "year": "3-4 year",
       "children": [
-        { "name": "DragForce", "value": 1082 },
-        { "name": "GravityForce", "value": 1336 },
-        { "name": "IForce", "value": 319 },
-        { "name": "NBodyForce", "value": 10498 },
-        { "name": "Particle", "value": 2822 },
-        { "name": "Simulation", "value": 9983 },
-        { "name": "Spring", "value": 2213 },
-        { "name": "SpringForce", "value": 1681 }
+        {
+          "title": "Fine Arts (Music, Dance, Painting etc.)"
+        },
+        {
+          "title": "Media Studies"
+        },
+        {
+          "title": "Advertisement"
+        },
+        {
+          "title": "Design (B.Des)",
+          "children": [
+            {
+              "title": "Fashion Design"
+            },
+            {
+              "title": "Leather Design"
+            },
+            {
+              "title": "Knitwear Design"
+            },
+            {
+              "title": "Textile Design"
+            },
+            {
+              "title": "Interior Design"
+            },
+            {
+              "title": "Accesscry Design"
+            },
+            {
+              "title": "Footwear Design"
+            },
+            {
+              "title": "Jwellery Design"
+            },
+            {
+              "title": "UI/UX"
+            }
+          ]
+        },
+        {
+          "title": "Journalism"
+        },
+        {
+          "title": "Film Making"
+        },
+        {
+          "title": "Photography"
+        },
+        {
+          "title": "Animation"
+        }
       ]
     },
     {
-      "name": "util",
+      "title": "Hospilality Management",
+      "year": "1-3 yrs"
+    },
+    {
+      "title": "Engineering",
+      "year": "4 yrs"
+    },
+    {
+      "title": "Architecture (B.Arch)",
+      "year": "5 yrs"
+    },
+    {
+      "title": "National Defense Academy (NDA)",
+      "year": "3 yrs",
       "children": [
-        { "name": "Arrays", "value": 8258 },
-        { "name": "Colors", "value": 10001 },
-        { "name": "Dates", "value": 8217 },
-        { "name": "Displays", "value": 12555 },
-        { "name": "Filter", "value": 2324 },
-        { "name": "Geometry", "value": 10993 },
-        {
-          "name": "heap",
-          "children": [
-            { "name": "FibonacciHeap", "value": 9354 },
-            { "name": "HeapNode", "value": 1233 }
-          ]
-        },
-        { "name": "IEvaluable", "value": 335 },
-        { "name": "IPredicate", "value": 383 },
-        { "name": "IValueProxy", "value": 874 },
-        {
-          "name": "math",
-          "children": [
-            { "name": "DenseMatrix", "value": 3165 },
-            { "name": "IMatrix", "value": 2815 },
-            { "name": "SparseMatrix", "value": 3366 }
-          ]
-        },
-        { "name": "Maths", "value": 17705 },
-        { "name": "Orientation", "value": 1486 },
-        {
-          "name": "palette",
-          "children": [
-            { "name": "ColorPalette", "value": 6367 },
-            { "name": "Palette", "value": 1229 },
-            { "name": "ShapePalette", "value": 2059 },
-            { "name": "SizePalette", "value": 2291 }
-          ]
-        },
-        { "name": "Property", "value": 5559 },
-        { "name": "Shapes", "value": 19118 },
-        { "name": "Sort", "value": 6887 },
-        { "name": "Stats", "value": 6557 },
-        { "name": "Strings", "value": 22026 }
+        { "title": "Army" },
+        { "title": "Air Force" },
+        { "title": "Navy" }
       ]
+    },
+    {
+      "title": "B.com/BCA",
+      "year": "3 yrs"
+    },
+    {
+      "title": "Shipping Jobs Alternate Training Scheme (ATS)",
+      "year": "2.5 yrs"
+    },
+    {
+      "title": "Air Hostess",
+      "year": "1-3 yrs"
+    },
+    {
+      "title": "Pilot training(CPT)",
+      "year": "1 yrs"
+    },
+    {
+      "title": "Travel & Tourism",
+      "year": "1-3 yrs"
+    },
+    {
+      "title": "Teaching",
+      "children": [
+        { "title": "Nursing", "year": "1 yrs" },
+        {
+          "title": "Teacher Training Course (TTC) (For Primary Schools)",
+          "year": "1-2 yrs"
+        },
+        {
+          "title": "Integrated B.Ed",
+          "year": "4 yrs"
+        }
+      ]
+    },
+    {
+      "title": "Law (Integrated LLB)",
+      "year": "5 yrs"
+    },
+    {
+      "title": "BA",
+      "year": "3 yrs",
+      "children": [{ "title": "Social/Home Science etc." }]
     }
   ]
 }
